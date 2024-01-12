@@ -1,13 +1,12 @@
 * {
     margin: 0px;
     padding: 0px;
-
+    
 }
 
 .backvideo {
-    background-size: cover;
-    position: fixed;
-
+   
+    position:fixed;
 }
 
 .navbar {
@@ -16,7 +15,7 @@
     display: flex;
     align-items: center;
     padding: 0px 0px;
-    margin: 4px 2px;
+    margin: 0px 2px;
     height: 50px;
     background-color: black;
 
@@ -167,8 +166,5 @@ background-color:rgba(255, 255, 255, 0.877);
 font-weight: 900;
 transition: 0.3s;
 
+
 }
-
-
-
-
