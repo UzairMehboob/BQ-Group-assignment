@@ -1,12 +1,18 @@
 * {
     margin: 0px;
     padding: 0px;
-    
+  
 }
 
-.backvideo {
-   
-    position:fixed;
+.backimg{
+    
+    position: fixed;
+    
+}
+.aboutbgimg{
+    
+    position: fixed;
+ 
 }
 
 .navbar {
@@ -17,14 +23,14 @@
     padding: 0px 0px;
     margin: 0px 2px;
     height: 50px;
-    background-color: black;
-
+    background-color: rgba(0, 0, 0, 0.526);
+    
     justify-content: space-between;
 }
 
 .navbar ul {
     overflow: auto;
-
+    
 }
 
 .navbar li {
@@ -32,139 +38,772 @@
     list-style: none;
     margin: 2px 6px;
     padding: 0px 7px;
-
+    
 }
 
 .navbar li a {
-
+    
     padding: 4px 4px;
     text-decoration: none;
     color: white;
     float: left;
-
-
+    
+    
 }
 
 .navbar li a:hover {
 
     color: red;
-
+    
 }
 
 
 
 .navbar h1 {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    margin: 0px 30px;
-
-
-}
-
-.mapcover{
-    position: absolute;
-   
-    display: flex;
-    justify-content: center;
-    width: 950px;
-    height: 400px;
-    align-items: center;
-margin: 8%;
-
-}
-.mapbox{
-   margin: 0px 8px;
-    border: 1px solid white;
-    background-color: rgba(250, 250, 250, 0.658);
-border-radius: 5px;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: 600;
-box-shadow: 1px 1px 10px;
-}
-.mapbox:hover{
-background-color:rgba(255, 255, 255, 0.877);
-font-weight: 900;
-transition: 0.3s;
-
-}
-.mapcover2{
-    position: absolute;
-   
-    display: flex;
-    justify-content: center;
-    width: 950px;
-    height: 400px;
-    align-items: center;
-margin: 8%;
-margin-top: 900px ;
-
-}
-.mapbox2{
-   margin: 0px 8px;
-    border: 1px solid white;
-    background-color: rgba(250, 250, 250, 0.658);
-border-radius: 5px;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: 600;
-}
-.mapbox2:hover{
-background-color:rgba(255, 255, 255, 0.877);
-font-weight: 900;
-transition: 0.3s;
-
-}
-.mapcover3{
-    position: absolute;
-   
-    display: flex;
-    justify-content: center;
-    width: 950px;
-    height: 400px;
-    align-items: center;
-margin: 8%;
-margin-top: 900px ;
-
-}
-.mapbox3{
-   margin: 0px 8px;
-    border: 1px solid white;
-    background-color: rgba(250, 250, 250, 0.658);
-border-radius: 5px;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: 600;
-}
-.mapbox3:hover{
-background-color:rgba(255, 255, 255, 0.877);
-font-weight: 900;
-transition: 0.3s;
-
-}
-.mapcover4{
-    position: absolute;
-   
-    display: flex;
-    justify-content: center;
-    width: 950px;
-    height: 400px;
-    align-items: center;
-margin: 8%;
-margin-top: 900px ;
-
-}
-.mapbox4{
+    color: rgb(255, 56, 56);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 200%;
+    margin: 0px 60px;
+    text-shadow: 1px 3px 9px #000000;
     
+    
+}
+.sideh1{
+    width: 50%;
+    height: 50%;
+    color: #ca1717;
+    z-index: 2;
+}
+
+.mapcover {
+    position: absolute;
+    
+    display: flex;
+    justify-content: center;
+    width: 950px;
+    height: 400px;
+    align-items: center;
+    margin: 8%;
+    
+}
+
+.mapbox {
+    margin: 0px 8px;
+    border: 1px solid white;
+    background-color: rgba(250, 250, 250, 0.658);
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    box-shadow: 1px 1px 10px;
+}
+
+.mapbox:hover {
+    background-color: rgba(255, 255, 255, 0.877);
+    font-weight: 900;
+    transition: 0.3s;
+
+}
+
+.mapcover2 {
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    width: 950px;
+    height: 400px;
+    align-items: center;
+    margin: 8%;
+    margin-top: 900px;
+
+}
+
+.mapbox2 {
+    margin: 0px 8px;
+    border: 1px solid white;
+    background-color: rgba(250, 250, 250, 0.658);
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.mapbox2:hover {
+    background-color: rgba(255, 255, 255, 0.877);
+    font-weight: 900;
+    transition: 0.3s;
+
+}
+
+.mapcover3 {
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    width: 950px;
+    height: 400px;
+    align-items: center;
+    margin: 8%;
+    margin-top: 900px;
+
+}
+
+.mapbox3 {
+    margin: 0px 8px;
+    border: 1px solid white;
+    background-color: rgba(250, 250, 250, 0.658);
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.mapbox3:hover {
+    background-color: rgba(255, 255, 255, 0.877);
+    font-weight: 900;
+    transition: 0.3s;
+
+}
+
+.mapcover4 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 950px;
+    height: 400px;
+    align-items: center;
+    margin: 8%;
+    margin-top: 900px;
+
+}
+
+.mapbox4 {
+
     margin: 0px 324px;
     border: 1px solid white;
     background-color: rgba(250, 250, 250, 0.658);
-border-radius: 5px;
-font-family: Arial, Helvetica, sans-serif;
-font-weight: 600;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
-.mapbox4:hover{
-background-color:rgba(255, 255, 255, 0.877);
-font-weight: 900;
-transition: 0.3s;
+
+.mapbox4:hover {
+    background-color: rgba(255, 255, 255, 0.877);
+    font-weight: 900;
+    transition: 0.3s;
 
 
+}
+.weapon0{
+    text-align: center;
+    font-size: 400%;
+    color: rgb(255, 0, 0);
+    text-shadow:1px 2px 10px #000000;
+    font-family: Tahoma (sans-serif);
+}
+.weaponscover {
+    position: absolute;
+    display: inline block;
+    justify-content: center;
+    width: 1520px;
+    height: 1528px;
+    align-items: center;
+    margin: 74px -1293px;
+}
+.coverbox1 {
+    width: 300px;
+    height: 150px;
+    margin: 13px 163px;
+    padding: 35px;
+   background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    border: 2px solid rgba(0, 0, 0, 0.475);
+    border-radius: 15px;
+    box-shadow: 2px  2px 5px #000000;
+    
+}
+
+.gunname1{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+    margin-top: -40px;
+    margin-left: -25px;
+    z-index: 2;
+    text-shadow:3px 2px 4px #000000 ;
+    font-family: Arial, Helvetica, sans-serif;
+         
+}
+
+.weapon1 {
+    width: 480px;
+    height: 150px;
+    position: absolute;
+    padding: 14px;
+    margin: -5px -125px;
+   
+}
+
+.coverbox2 {
+    width: 300px;
+    height: 150px;
+    margin: -34px 367px;
+    padding: 35px;
+    border: 2px solid rgba(0, 0, 0, 0.475);
+    border-radius: 15px;
+    box-shadow: 2px  2px 5px #000000;
+    background-color: rgba(1, 1, 1, 0);
+    position: absolute;
+}
+.gunname2{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+    margin-top: -40px;
+    margin-left: -25px;
+    z-index: 2;
+    text-shadow:3px 2px 4px #000000 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.weapon2 {
+    width: 348px;
+    height: 150px;
+    position: absolute;
+    padding: 43px;
+    margin: -18px -62px;
+
+}
+
+.coverbox3 {
+    width: 300px;
+    height: 150px;
+    margin: -33px 767px;
+    padding: 35px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    box-shadow: 2px  2px 5px #000000;
+    background-color: rgba(255, 255, 255, 0);   
+     position: absolute;
+}
+.gunname3{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+    margin-top: -40px;
+    margin-left: -25px;
+    z-index: 2;
+    text-shadow:3px 2px 4px #000000 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weapon3 {
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    padding: 21px;
+    margin: -18px -62px;
+
+}
+
+.coverbox4 {
+    width: 300px;
+    height: 150px;
+    margin: 219px -38px;
+    padding: 35px;
+    border: 2px solid rgba(0, 0, 0, 0.294);
+    border-radius: 15px;
+    box-shadow: 2px  2px 5px #000000;
+    background-color: rgba(255, 255, 255, 0);
+       position: absolute;
+}
+.gunname4{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+    margin-top: -40px;
+    margin-left: -25px;
+    z-index: 2;
+    text-shadow:3px 2px 4px #000000 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weapon4 {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    padding: 45px;
+    margin: -18px -62px;
+
+}
+
+.coverbox5 {
+    width: 300px;
+    height: 150px;
+    margin: 221px 363px;
+    padding: 35px;
+    border: 2px solid rgba(0, 0, 0, 0.475);
+    border-radius: 15px;
+    box-shadow: 2px  2px 5px #000000;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+}
+.gunname5{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+    margin-top: -40px;
+    margin-left: -25px;
+    z-index: 2;
+    text-shadow:3px 3px 5px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weapon5 {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    padding: 45px;
+    margin: -18px -62px;
+
+}
+
+.coverbox6 {
+    width: 300px;
+    height: 150px;
+    margin: 220px 767px;
+    padding: 35px;
+    border: 2px solid rgba(0, 0, 0, 0.475);
+    border-radius: 15px;
+    box-shadow: 2px  2px 5px #000000;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+}
+
+.gunname6{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+    margin-top: -40px;
+    margin-left: -25px;
+    z-index: 2;
+    text-shadow: 2px  2px 5px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weapon6 {
+    width: 348px;
+    height: 150px;
+    position: absolute;
+    padding: 43px;
+    margin: -18px -62px;
+
+}
+.coverbox7 {
+    width: 300px;
+    height: 150px;
+    margin: 470px -38px;
+    padding: 35px;
+    border: 2px solid rgba(0, 0, 0, 0.475);
+    border-radius: 15px;
+    box-shadow: 2px  2px 5px #000000;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+}
+.gunname7{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+    margin-top: -40px;
+    margin-left: -25px;
+    z-index: 2;
+    text-shadow:3px 2px 4px #000000 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.weapon7 {
+    width: 348px;
+    height: 150px;
+    position: absolute;
+    padding: 43px;
+    margin: -18px -62px;
+
+}
+.coverbox8 {
+    width: 300px;
+    height: 150px;
+    margin: 470px 363px;
+    padding: 35px;
+    border: 2px solid rgba(0, 0, 0, 0.475);
+    border-radius: 15px;
+    box-shadow: 2px  2px 5px #000000;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+}
+.gunname8{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+    margin-top: -40px;
+    margin-left: -25px;
+    z-index: 2;
+    text-shadow: 2px  2px 5px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weapon8 {
+    width: 348px;
+    height: 154px;
+    position: absolute;
+    padding: 43px;
+    margin: -18px -62px;
+
+}
+
+.coverbox9 {
+    width: 300px;
+    height: 150px;
+    margin: 470px 767px;
+    padding: 35px;
+    border: 2px solid rgba(0, 0, 0, 0.475);
+    border-radius: 15px;
+    box-shadow: 2px  2px 5px #000000;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+}
+.gunname9{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+    margin-top: -40px;
+    margin-left: -25px;
+    z-index: 2;
+    text-shadow: 2px  2px 5px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weapon9 {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    padding: 45px;
+    margin: -18px -62px;
+
+}
+
+.coverbox10 {
+    width: 300px;
+    height: 150px;
+    margin: 720px -38px;
+    padding: 35px;
+    border: 2px solid rgba(0, 0, 0, 0.475);
+    border-radius: 15px;
+    box-shadow: 2px  2px 5px #000000;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+}
+.gunname10{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+    margin-top: -40px;
+    margin-left: -25px;
+    z-index: 2;
+    text-shadow: 2px  2px 5px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weapon10 {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    padding: 45px;
+    margin: -18px -62px;
+
+}
+
+.coverbox11 {
+    width: 300px;
+    height: 150px;
+    margin: 720px 363px;
+    padding: 35px;
+    border: 2px solid rgba(0, 0, 0, 0.475);
+    border-radius: 15px;
+    box-shadow: 2px  2px 5px #000000;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+}
+.gunname11{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+    margin-top: -40px;
+    margin-left: -25px;
+    z-index: 2;
+    text-shadow: 2px  2px 5px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weapon11 {
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    padding: 45px;
+    margin: -100px -72px;
+
+}
+
+.coverbox12 {
+    width: 300px;
+    height: 150px;
+    margin: 720px 765px;
+    padding: 35px;
+    border: 2px solid rgba(0, 0, 0, 0.475);
+    border-radius: 15px;
+    box-shadow: 2px  2px 5px #000000;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+}
+.gunname12{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+    margin-top: -40px;
+    margin-left: -25px;
+    z-index: 2;
+    text-shadow: 2px  2px 5px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weapon12 {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    padding: 45px;
+    margin: -18px -62px;
+
+}
+
+.coverbox13 {
+    width: 300px;
+    height: 150px;
+    margin: 970px -38px;
+    padding: 35px;
+    border: 2px solid rgba(0, 0, 0, 0.475);
+    border-radius: 15px;
+    box-shadow: 2px  2px 5px #000000;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+}
+.gunname13{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+    margin-top: -40px;
+    margin-left: -25px;
+    z-index: 2;
+    text-shadow: 2px  2px 5px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weapon13 {
+    width: 300px;
+    height: 190px;
+    position: absolute;
+    padding: 45px;
+    margin: -58px -62px;
+
+}
+
+.coverbox14 {
+    width: 300px;
+    height: 150px;
+    margin: 970px 365px;
+    padding: 35px;
+    border: 2px solid rgba(0, 0, 0, 0.475);
+    border-radius: 15px;
+    box-shadow: 2px  2px 5px #000000;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+}
+.gunname14{
+    position: absolute;
+    color: rgb(255, 253, 253);
+    font-size: 300%;
+    margin-top: -40px;
+    margin-left: -25px;
+    z-index: 2;
+    text-shadow: 2px  2px 5px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weapon14 {
+    width: 300px;
+    height: 190px;
+    position: absolute;
+    padding: 45px;
+    margin: -58px -62px;
+
+}
+
+.coverbox15 {
+    width: 300px;
+    height: 150px;
+    margin: 970px 765px;
+    padding: 35px;
+    border: 2px solid rgba(0, 0, 0, 0.475);
+    border-radius: 15px;
+    box-shadow: 2px  2px 5px #000000;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+}
+.gunname15{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 300%;
+    margin-top: -40px;
+    margin-left: -25px;
+    z-index: 2;
+    text-shadow: 2px  2px 5px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weapon15 {
+    width: 300px;
+    height: 190px;
+    position: absolute;
+    padding: 45px;
+    margin: -58px -62px;
+
+}
+
+.coverbox16 {
+    width: 300px;
+    height: 150px;
+    margin: 1220px -38px;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 2px  2px 5px #000000;
+    border: 2px solid rgba(0, 0, 0, 0.475);
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+}
+.gunname16{
+    position: absolute;
+   color: rgb(255, 255, 255); 
+    font-size: 300%;
+    margin-top: -40px;
+    margin-left: -25px;
+    z-index: 2;
+    text-shadow: 2px  2px 5px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weapon16 {
+    width: 300px;
+    height: 90px;
+    position: absolute;
+    padding: 45px;
+    margin: -18px -62px;
+
+}
+
+.coverbox17 {
+    width: 300px;
+    height: 150px;
+    margin: 1220px 362px;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 2px  2px 5px #000000;
+    border: 2px solid rgba(0, 0, 0, 0.475);
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+}
+.gunname17{
+    position: absolute;
+    color: rgb(255, 247, 247);
+    font-size: 300%;
+    margin-top: -40px;
+    margin-left: -25px;
+    z-index: 2;
+    text-shadow: 2px  2px 5px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weapon17 {
+    width: 400px;
+    height: 290px;
+    position: absolute;
+    padding: 45px;
+    margin: -105px -82px;
+
+}
+
+.coverbox18 {
+    width: 300px;
+    height: 150px;
+    margin: 1220px 762px;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 2px  2px 5px #000000;
+    background-color: rgba(0, 0, 0, 0.675);
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+}
+.gunname18{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.833);
+    font-size: 300%;
+    margin-top: -40px;
+    margin-left: -25px;
+    z-index: 2;
+    text-shadow: 2px  2px 5px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.weapon18 {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    padding: 45px;
+    margin: -58px -62px;
+
+}
+
+.homevid{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 950px;
+    height: 400px;
+    align-items: center;
+    margin: 20% 962px;
+}
+
+ .homebox video{
+    margin: 2px 15px;
+    border: 0.1px solid rgb(0, 0, 0);
+    background-color: rgba(250, 250, 250, 0.658);
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    box-shadow: 5px 5px 10px;
+    height: 350px;
+    width: 620px;
+    background-image: url("home\ video.mp4");
+
+ }
+.homebtn{
+    position: absolute;
+    margin: 660px 139px;
+    background-color:rgba(0, 0, 0, 0.208);
+    box-shadow: 5px 5px 5px #000000;
+
+}
+.homebtn h1 a{
+    width: 220px;
+    height: 50px;
+    border: 2px solid #000;
+    color: #efefef;
+text-decoration: none;
+}
+.homebtn:hover{
+   background:  #ec1c1c;
+  transition: 0.5s;
+} 
+.homep{
+position:absolute;
+margin: 453px 81px;
+text-shadow: 10px 10px 10px #000000;
+font-size: x-large;
+color: rgb(252, 252, 252);
+}
+.homeh2{
+    text-shadow: 1px 5px 10px #000000;
+    position: absolute;
+    color: rgb(255, 56, 56);
+    margin: 277px 33px;
+    font-size: 900%;
 }
