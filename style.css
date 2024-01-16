@@ -7,6 +7,7 @@
 .backimg {
 
     position: fixed;
+    
 
 }
 
@@ -881,13 +882,13 @@ div.aboutlogo {
 }
 
 .abtcover {
-    /* border: 5px solid black; */
+  
     position: absolute;
     width: 950px;
     height: 320vh;
 
     left: 26%;
-    top: 100px;
+    top: 4px;
 }
 
 .abtcover0 {
@@ -905,7 +906,7 @@ div.aboutlogo {
     /* border: 5px solid black; */
     position: absolute;
     width: 900px;
-    height: 250px;
+    height: 160px;
 
     left: -0.7%;
     top: 630px;
@@ -917,10 +918,10 @@ div.aboutlogo {
     /* border: 5px solid black; */
     position: absolute;
     width: 900px;
-    height: 380px;
+    height: 180px;
 
     left: -0.7%;
-    top: 900px;
+    top: 820px;
     box-shadow: 1px 1px 10px;
     padding: 7px;
 }
@@ -929,10 +930,10 @@ div.aboutlogo {
     /* border: 5px solid black; */
     position: absolute;
     width: 900px;
-    height: 380px;
+    height: 180px;
 
     left: -0.7%;
-    top: 1300px;
+    top: 1030px;
     box-shadow: 1px 1px 10px;
     padding: 7px;
 }
@@ -941,10 +942,10 @@ div.aboutlogo {
     /* border: 5px solid black; */
     position: absolute;
     width: 900px;
-    height: 380px;
+    height: 180px;
 
     left: -0.7%;
-    top: 1700px;
+    top: 1240px;
     box-shadow: 1px 1px 10px;
     padding: 7px;
 }
@@ -953,10 +954,10 @@ div.aboutlogo {
     /* border: 5px solid black; */
     position: absolute;
     width: 900px;
-    height: 380px;
+    height: 215px;
 
     left: -0.7%;
-    top: 2100px;
+    top: 1450px;
     box-shadow: 1px 1px 10px;
     padding: 7px;
 }
@@ -968,7 +969,7 @@ div.aboutlogo {
     height: 400px;
 
     left: -0.7%;
-    top: 2500px;
+    top: 1700px;
     box-shadow: 1px 1px 10px;
     padding: 7px;
 }
@@ -977,19 +978,72 @@ div.aboutlogo {
     /* border: 5px solid black; */
     position: absolute;
     width: 900px;
-    height: 340px;
+    height: 200px;
 
     left: -0.7%;
-    top: 2930px;
+    top: 2130px;
     box-shadow: 1px 1px 10px;
     padding: 7px;
 }
-
-
-
-
-div.socailicon {
+.div.socailicon {
     display: flex;
     justify-content: center;
+    }
 
+/* .character1{
+    position: absolute;
+    margin: 250px 1397px;
+}
+.character2{
+    position: absolute;
+    margin: 350px 1px;
+}
+.character3{
+    position: absolute;
+    margin: 1800px 1397px;
+}
+.character4{
+    position: absolute;
+    margin: 1800px 1px;
+} */ 
+
+.black1{
+    background-color: #000;
+    width: 180vh;
+    height: 250px;
+    margin: 170% 1px;
+    padding: 1px 1px ;
+    position: absolute;
+ 
+    
+    background: #7e7e7e;
+    background: #202020;
+}
+.bt{
+    color: #cac9c9;
+    text-align: center;
+    font-size: large;
+    padding: 15px 16px;
+    
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+ 
+}
+.socialicons a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+    background-color: #2d2d2d;
+    margin: 10px;
+    border-radius: 50%;
+}
+.valp{
+    text-align: center;
+    color: #727070;
+}
+.rot{
+    margin: -35px 450px; 
+ 
 }
