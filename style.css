@@ -807,3 +807,25 @@ color: rgb(252, 252, 252);
     margin: 277px 33px;
     font-size: 900%;
 }
+
+div.aboutlogo{
+    justify-content: center;
+  
+  
+   
+
+}
+div.aboutdata{
+  color:  rgb(255, 56, 56);
+   position: absolute;
+   font-family: sans-serif;
+   p{
+    color: #000000;
+   }
+    
+}
+div.socailicon{
+    display: flex;
+    justify-content: center;
+   
+}
