@@ -88,6 +88,7 @@ width: 182vh;
     height: 400px;
     align-items: center;
     margin: 8%;
+    left: 250px;
 
 }
 
@@ -1010,7 +1011,7 @@ div.aboutlogo {
 .black1{
     background-color: #000;
     width: 180vh;
-    height: 250px;
+    height: 220px;
     margin: 170% 1px;
     padding: 1px 1px ;
     position: absolute;
